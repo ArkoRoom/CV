@@ -1,0 +1,17 @@
+{
+  "name": "CV",
+  "homepage": "https://github.com/ArkoRoom/CV",
+  "authors": [
+    "Arkolips <catel.ludovic@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
