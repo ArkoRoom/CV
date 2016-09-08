@@ -11,8 +11,10 @@
     <div class="container-fluid">
 
       <div class="header">
-        <p>CATEL LUDOVIC</p>
-        <p>DEVELOPPEUR WEB JUNIOR</p>
+        <div class="col-md-4 col-md-offset-4">
+          <p class="text-top-header">CATEL LUDOVIC</p>
+          <p class="text-bottom-header">DEVELOPPEUR WEB JUNIOR</p>
+        </div>
       </div><!-- /Header -->
 
       <nav class="navbar navbar-default">
@@ -29,8 +31,11 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Link</a></li>
+            <li class="active"><a href="#">Présentation <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Expériences</a></li>
+            <li><a href="#">Compétences</a></li>
+            <li><a href="#">Création</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
       </nav><!-- /Nav -->
@@ -46,24 +51,55 @@
           </p>
         </div>
         <div class="col-md-8 col-md-offset-2">
-          <div class="col-md-3">
-            <i class="fa fa-exchange fa-4x"></i>
-            <p>Expériences</p>
+          <div class="col-md-3 div-button">
+            <a href="#">
+              <i class="fa fa-exchange fa-4x"></i>
+              <p>Expériences</p>
+            </a>
           </div>
-          <div class="col-md-3">
-            <i class="fa fa-pied-piper fa-4x"></i>
-            <p>Compétences</p>
+          <div class="col-md-3 div-button">
+            <a href="#">
+              <i class="fa fa-pied-piper fa-4x"></i>
+              <p>Compétences</p>
+            </a>
           </div>
-          <div class="col-md-3">
-            <i class="fa fa-paint-brush fa-4x"></i>
-            <p>Création</p>
+          <div class="col-md-3 div-button">
+            <a href="#">
+              <i class="fa fa-paint-brush fa-4x"></i>
+              <p>Création</p>
+            </a>
           </div>
-          <div class="col-md-3">
-            <i class="fa fa fa-envelope fa-4x"></i>
-            <p>Contact</p>
+          <div class="col-md-3 div-button">
+            <a href="#">
+              <i class="fa fa fa-envelope fa-4x"></i>
+              <p>Contact</p>
+            </a>
           </div>
         </div>
-      </main>
+      </main><!-- /Main -->
+
+      <footer>
+        <div class="col-md-2 col-md-offset-5 socials">
+          <div class="col-md-2 social facebook">
+
+          </div>
+          <div class="col-md-2 social twitter">
+
+          </div>
+          <div class="col-md-2 social linkedin">
+
+          </div>
+          <div class="col-md-2 social git">
+
+          </div>
+          <div class="col-md-2 social google">
+
+          </div>
+        </div>
+        <div class="col-md-4 col-md-offset-4 text-footer">
+          <p>Site réalisé par Ludovic CATEL</p>
+        </div>
+      </footer><!-- /Footer -->
     </div><!-- /Container FLuid -->
 
     <script src="private/vendor/jquery/dist/jquery.min.js" charset="utf-8"></script>

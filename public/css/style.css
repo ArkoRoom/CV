@@ -12,9 +12,130 @@ body{
 .header{
   background-image: url(../img/pattern1.png);
   min-height: 250px;
+  padding-top: 1.5%;
+  text-align: center;
+}
+.text-top-header{
+  font-size: 5.4em;
+  border-top: 7px solid #CF3A15;
+}
+.text-bottom-header{
+  font-size: 3em;
+  border-bottom: 7px solid #CF3A15;
 }
 
 /****** Nav ******/
 
+.navbar-default{
+  background-color: #010017;
+  border-color: none;
+}
+.navbar{
+  border-radius: 0;
+}
+.navbar-nav{
+  float: right;
+}
+.navbar-nav i {
+  padding-right: 0.5%;
+}
+.navbar-default .navbar-nav > .active > a{
+  color: #CF3A15;
+  background-color: #FFFFFF;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav>.active>a:hover{
+  color: #CF3A15;
+  background-color: #FFFFFF;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand{
+  color: #FFFFFF;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover{
+  color: #CF3A15;
+  background-color: #FFFFFF;
+  font-weight: bold;
+}
 
 /****** Main ******/
+
+main{
+  min-height: 600px;
+}
+.div-button{
+  margin-top: 60px;
+  min-height: 80px;
+}
+.col-md-3 i{
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.col-md-3 p {
+  text-align: center;
+}
+
+/***** Footer *****/
+
+footer{
+  width: 100%;
+  min-height: 100px;
+  background-color: #CF3A15;
+}
+.col-md-offset-5{
+  margin-left: 43%;
+}
+.text-footer{
+  text-align: center;
+}
+.socials{
+  margin-bottom: 10px;
+}
+.social{
+  width: 42px;
+  height: 42px;
+  margin-left: 1%;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+.facebook{
+  background-image: url(../img/sprite.png);
+}
+.facebook:hover{
+  background-image: url(../img/sprite.png);
+  background-position: 0px 42px;
+}
+.twitter{
+  background-image: url(../img/sprite.png);
+  background-position: 126px 126px;
+}
+.twitter:hover{
+  background-image: url(../img/sprite.png);
+  background-position: 126px 42px;
+}
+.linkedin{
+  background-image: url(../img/sprite.png);
+  background-position: 294px 126px;
+}
+.linkedin:hover{
+  background-image: url(../img/sprite.png);
+  background-position: 294px 42px;
+}
+.git{
+  background-image: url(../img/sprite.png);
+  background-position: 210px 126px;
+}
+.git:hover{
+  background-image: url(../img/sprite.png);
+  background-position: 210px 42px;
+}
+.google{
+  background-image: url(../img/sprite.png);
+  background-position: 336px 126px;
+}
+.google:hover{
+  background-image: url(../img/sprite.png);
+  background-position: 336px 42px;
+}
