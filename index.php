@@ -11,6 +11,7 @@
     <div class="container-fluid">
 
       <div class="header">
+        <div class="background-header-opacity"></div>
         <div class="col-md-4 col-md-offset-4">
           <p class="text-top-header">CATEL LUDOVIC</p>
           <p class="text-bottom-header">DEVELOPPEUR WEB JUNIOR</p>
