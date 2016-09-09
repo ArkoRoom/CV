@@ -24,11 +24,13 @@ body{
   opacity: 0.4;
 }
 .text-top-header{
-  font-size: 5.4em;
+  font-size: 5.2em;
+  font-weight: bold;
   border-top: 7px solid #CF3A15;
 }
 .text-bottom-header{
   font-size: 3em;
+  font-weight: bold;
   border-bottom: 7px solid #CF3A15;
 }
 
