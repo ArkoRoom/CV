@@ -27,7 +27,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
         </div><!-- /Responsive Nav -->
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -81,21 +80,21 @@
 
       <footer>
         <div class="col-md-2 col-md-offset-5 socials">
-          <div class="col-md-2 social facebook">
-
-          </div>
-          <div class="col-md-2 social twitter">
-
-          </div>
-          <div class="col-md-2 social linkedin">
-
-          </div>
-          <div class="col-md-2 social git">
-
-          </div>
-          <div class="col-md-2 social google">
-
-          </div>
+          <a href="https://www.facebook.com/Arkolips" target="_blank">
+            <div class="col-md-2 social facebook"></div>
+          </a>
+          <a href="https://twitter.com/Arkolips" target="_blank">
+            <div class="col-md-2 social twitter"></div>
+          </a>
+          <a href="https://fr.linkedin.com/in/ludovic-catel" target="_blank">
+            <div class="col-md-2 social linkedin"></div>
+          </a>
+          <a href="https://github.com/ArkoRoom" target="_blank">
+            <div class="col-md-2 social git"></div>
+          </a>
+          <a href="https://plus.google.com/108315228598108840637" target="_blank">
+            <div class="col-md-2 social google"></div>
+          </a>
         </div>
         <div class="col-md-4 col-md-offset-4 text-footer">
           <p>Site réalisé par Ludovic CATEL</p>

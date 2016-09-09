@@ -41,12 +41,6 @@ body{
 .navbar{
   border-radius: 0;
 }
-.navbar-nav{
-  float: right;
-}
-.navbar-nav i {
-  padding-right: 0.5%;
-}
 .navbar-default .navbar-nav > .active > a{
   color: #CF3A15;
   background-color: #FFFFFF;
@@ -88,7 +82,7 @@ main{
 
 footer{
   width: 100%;
-  min-height: 100px;
+  min-height: 110px;
   background-color: #CF3A15;
 }
 .col-md-offset-5{
