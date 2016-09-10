@@ -132,6 +132,20 @@ main{
   100% {right: 0px;}
 }
 
+/***** Slides *****/
+
+#home, #experiences {
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+div.move {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
 
 /***** Footer *****/
 
