@@ -36,6 +36,9 @@ body{
 
 /****** Nav ******/
 
+.navbar-collapse{
+  padding-left: 0;
+}
 .navbar-default{
   background-color: #010017;
   border-color: none;
@@ -104,6 +107,10 @@ main{
 .arrow-left, .arrow-right{
   position: absolute;
   top: 600px;
+  cursor: pointer;
+}
+.arrow-left:hover, .arrow-right:hover{
+  cursor: pointer;
 }
 .arrow-right{
   float: right;
