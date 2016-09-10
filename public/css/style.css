@@ -67,18 +67,64 @@ body{
 main{
   min-height: 600px;
 }
-.div-button{
-  margin-top: 60px;
-  min-height: 80px;
+.row{
+  margin: 0;
 }
-.col-md-3 i{
+.center-button{
+  padding-left: 15%;
+}
+.div-button{
+  display: inline-block;
+  margin-top: 60px;
+  margin-right: 10px;
+  padding-top: 10px;
+  min-height: 80px;
+  text-align: center;
+  color: #CF3A15;
+  background-color: #010017;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.div-button:hover{
+  color: #CF3A15;
+  background-color: #FFFFFF;
+  border: 1px solid #CF3A15;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.div-button i{
   display: block;
   text-align: center;
   padding-bottom: 20px;
 }
-.col-md-3 p {
+.div-button p {
+  font-size: 1.15em;
   text-align: center;
 }
+.arrow-left, .arrow-right{
+  position: absolute;
+  top: 600px;
+}
+.arrow-right{
+  float: right;
+  right: 0;
+  animation: arrowRight 1s infinite;
+}
+.arrow-left{
+  animation: arrowLeft 1s infinite;
+}
+
+@keyframes arrowLeft {
+  0% {left: 0px;}
+  50% {left: 10px;}
+  100% {left: 0px;}
+}
+@keyframes arrowRight {
+  0% {right: 0px;}
+  50% {right: 10px;}
+  100% {right: 0px;}
+}
+
 
 /***** Footer *****/
 

@@ -41,38 +41,38 @@
       </nav><!-- /Nav -->
 
       <main>
-        <div class="col-md-8 col-md-offset-2">
-          <h2>Bonjour et bienvenue sur mon CV ! </h2>
-          <p>
-            A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
-            Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein de la Cyber-Base d'Euratechnologies à Lille.<br>
-            A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
-            J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.
-          </p>
+        <div class="arrow-left">
+          <i class="fa fa-chevron-left fa-4x"></i>
         </div>
-        <div class="col-md-8 col-md-offset-2">
-          <div class="col-md-3 div-button">
-            <a href="#">
-              <i class="fa fa-exchange fa-4x"></i>
-              <p>Expériences</p>
-            </a>
+        <div class="arrow-right">
+          <i class="fa fa-chevron-right fa-4x"></i>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h2>Bonjour et bienvenue sur mon CV ! </h2>
+            <p>
+              A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
+              Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein de la Cyber-Base d'Euratechnologies à Lille.<br>
+              A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
+              J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.
+            </p>
           </div>
-          <div class="col-md-3 div-button">
-            <a href="#">
-              <i class="fa fa-pied-piper fa-4x"></i>
-              <p>Compétences</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 center-button">
+            <a href="#" class="btn btn-default div-button col-md-2">
+              <i class="fa fa-exchange fa-4x"></i>Expériences
             </a>
-          </div>
-          <div class="col-md-3 div-button">
-            <a href="#">
-              <i class="fa fa-paint-brush fa-4x"></i>
-              <p>Création</p>
+            <a href="#" class="btn btn-default div-button col-md-2">
+              <i class="fa fa-pied-piper fa-4x"></i>Compétences
             </a>
-          </div>
-          <div class="col-md-3 div-button">
-            <a href="#">
-              <i class="fa fa fa-envelope fa-4x"></i>
-              <p>Contact</p>
+            <a href="#" class="btn btn-default div-button col-md-2">
+              <i class="fa fa-paint-brush fa-4x"></i>Création
+            </a>
+            <a href="#" class="btn btn-default div-button col-md-2">
+              <i class="fa fa fa-envelope fa-4x"></i>Contact
             </a>
           </div>
         </div>
