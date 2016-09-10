@@ -31,8 +31,8 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#home">Présentation</a></li>
-            <li><a href="#experiences" class="move">Expériences</a></li>
+            <li class="home move"><a href="#home">Présentation</a></li>
+            <li class="experiences move"><a href="#experiences">Expériences</a></li>
             <li><a href="#" class="move">Compétences</a></li>
             <li><a href="#" class="move">Création</a></li>
             <li><a href="#" class="move">Contact</a></li>
