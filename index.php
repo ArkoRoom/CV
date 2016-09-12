@@ -33,9 +33,9 @@
           <ul class="nav navbar-nav">
             <li class="home move active"><a href="#home">Présentation</a></li>
             <li class="experiences move"><a href="#experiences">Expériences</a></li>
-            <li><a href="#" class="move">Compétences</a></li>
-            <li><a href="#" class="move">Création</a></li>
-            <li><a href="#" class="move">Contact</a></li>
+            <li class="move competences"><a href="#competences">Compétences</a></li>
+            <li class="move creation"><a href="#creation">Création</a></li>
+            <li class="move contact"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav><!-- /Nav -->
@@ -53,6 +53,7 @@
             <div class="col-md-8 col-md-offset-2">
               <h2>Bonjour et bienvenue sur mon CV ! </h2>
               <p>
+                Je suis Ludovic CATEL, j'ai 27 ans et j'habite dans le Nord (59). <br>
                 A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
                 Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein de la Cyber-Base d'Euratechnologies à Lille.<br>
                 A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
@@ -63,16 +64,16 @@
 
           <div class="row">
             <div class="col-md-8 col-md-offset-2 center-button">
-              <a href="#" class="btn btn-default div-button move col-md-2">
+              <a href="#experiences" class="btn btn-default div-button experiences col-md-2">
                 <i class="fa fa-exchange fa-4x"></i>Expériences
               </a>
-              <a href="#" class="btn btn-default div-button move col-md-2">
+              <a href="#competences" class="btn btn-default div-button competences col-md-2">
                 <i class="fa fa-pied-piper fa-4x"></i>Compétences
               </a>
-              <a href="#" class="btn btn-default div-button move col-md-2">
+              <a href="#creation" class="btn btn-default div-button creation col-md-2">
                 <i class="fa fa-paint-brush fa-4x"></i>Création
               </a>
-              <a href="#" class="btn btn-default div-button move col-md-2">
+              <a href="#contact" class="btn btn-default div-button contact col-md-2">
                 <i class="fa fa fa-envelope fa-4x"></i>Contact
               </a>
             </div>
@@ -92,6 +93,48 @@
             </div>
           </div>
         </div><!-- /Expériences -->
+        <!-- Compétences -->
+        <div id="competences" class="col-md-12 move">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>Mes Compétences</h2>
+              <p>
+                A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
+                Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein de la Cyber-Base d'Euratechnologies à Lille.<br>
+                A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
+                J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.
+              </p>
+            </div>
+          </div>
+        </div><!-- /Compétences -->
+        <!-- Création -->
+        <div id="creation" class="col-md-12 move">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>Mes Créations</h2>
+              <p>
+                A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
+                Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein de la Cyber-Base d'Euratechnologies à Lille.<br>
+                A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
+                J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.
+              </p>
+            </div>
+          </div>
+        </div><!-- /Création -->
+        <!-- Contact -->
+        <div id="contact" class="col-md-12 move">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>Me Contacter</h2>
+              <p>
+                A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
+                Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein de la Cyber-Base d'Euratechnologies à Lille.<br>
+                A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
+                J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.
+              </p>
+            </div>
+          </div>
+        </div><!-- /Contact -->
 
       </main><!-- /Main -->
 
