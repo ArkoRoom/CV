@@ -41,12 +41,13 @@
       </nav><!-- /Nav -->
 
       <section>
+        <!--
         <div class="arrow-left">
           <i class="fa fa-chevron-left fa-4x"></i>
         </div>
         <div class="arrow-right">
           <i class="fa fa-chevron-right fa-4x"></i>
-        </div>
+        </div> -->
         <!-- Home -->
         <div id="home" class="col-md-12">
           <div class="row">
@@ -215,6 +216,7 @@
               <p>
                 Vous arrivez aux termes de ce CV. <br>
                 Merci de votre visite et n'hésitez pas à me contacter via le formulaire ci-dessous pour toutes demandes et/ou renseignements.<br>
+                N'hésitez pas à me suivre sur mes réseaux sociaux disponible dans le bas de la page. <br>
                 A bientôt !
               </p>
               <form action="index.html" method="post">

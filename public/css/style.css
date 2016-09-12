@@ -232,8 +232,15 @@ footer{
 
 form{
   width: 50%;
+  margin-top: 2%;
   margin-left: 25%;
-  padding-bottom: 5%;
+  margin-bottom: 3%;
+  padding: 2%;
+  background-color: #CF3A15;
+  border-radius: 10px;
+}
+form label{
+  color: #FFFFFF;
 }
 #submit{
   display: block;
