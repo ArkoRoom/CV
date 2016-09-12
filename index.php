@@ -9,7 +9,7 @@
   </head>
   <body id="body">
     <div class="container-fluid">
-      <a href="#body" class="arrow-top">
+      <a href="#nav" class="arrow-top">
         <div>
           <i class="fa fa-chevron-up fa-3x"></i>
         </div>
@@ -23,7 +23,7 @@
         </div>
       </div><!-- /Header -->
 
-      <nav class="navbar navbar-default">
+      <nav id="nav" class="navbar navbar-default">
         <!-- Responsive Nav -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">

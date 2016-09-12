@@ -66,6 +66,10 @@ body{
 }
 
 /****** Main ******/
+
+#home, #experiences, #competences, #creation, #contact{
+  margin-top: 7%;
+}
 #hr1, #hr2, #hr3, #hr4{
   margin-left: 20%;
   margin-right: 20%;
@@ -76,7 +80,7 @@ body{
   height: 60px;
   position: fixed;
   right: 0;
-  bottom: 0;
+  bottom: 102px;
   background-color: #323E45;
   color: #CF3A15;
   border-radius: 10px 0px 0px 10px;
