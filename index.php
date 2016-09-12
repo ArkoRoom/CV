@@ -205,30 +205,73 @@
       <hr id="hr3">
       <!-- Création -->
       <section id="creation">
-        <div class="col-md-12 move">
+        <div class="col-md-8 col-md-offset-2 move">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2>Mes Créations</h2>
-              <p>
-                Vous pouvez trouver ici quelques liens vers les sites que j'ai pu réaliser lors de mes formations. <br>
-                Vous avez aussi un lien vers mon profil LinkedIn ainsi que vers mon GitHub.
-              </p>
-              <div class="col-md-12">
-                <a href="http://btech-lille.com/btech7/x2000/html/formations.html" target="_blank">
-                  <div class="col-md-4 img-create">
-                    <img src="public/img/x2000.gif" alt="Logo x2000" title="Association x2000" />
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Réalisations / Participations
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <h2>Mes Créations</h2>
+                    <p>
+                      Vous pouvez trouver ici quelques liens vers les sites que j'ai pu réaliser lors de mes formations. <br>
+                      Vous avez aussi un lien vers mon profil LinkedIn ainsi que vers mon GitHub.
+                    </p>
+                    <div class="col-md-12">
+                      <a href="http://btech-lille.com/btech7/x2000/html/formations.html" target="_blank">
+                        <div class="col-md-4 img-create">
+                          <img src="public/img/x2000.gif" alt="Logo x2000" title="Association x2000" />
+                        </div>
+                      </a>
+                      <a href="https://github.com/ArkoRoom" target="_blank">
+                        <div class="col-md-4 img-create">
+                          <img src="public/img/github.gif" alt="Logo Github" title="Mon Github" />
+                        </div>
+                      </a>
+                      <a href="https://fr.linkedin.com/in/ludovic-catel" target="_blank">
+                        <div class="col-md-4 img-create">
+                          <img src="public/img/linkedin.png" alt="Logo linkedin" title="Mon LinkedIn"/>
+                        </div>
+                      </a>
+                    </div>
                   </div>
-                </a>
-                <a href="https://github.com/ArkoRoom" target="_blank">
-                  <div class="col-md-4 img-create">
-                    <img src="public/img/github.gif" alt="Logo Github" title="Mon Github" />
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Réalisation / Mini-jeux
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+
                   </div>
-                </a>
-                <a href="https://fr.linkedin.com/in/ludovic-catel" target="_blank">
-                  <div class="col-md-4 img-create">
-                    <img src="public/img/linkedin.png" alt="Logo linkedin" title="Mon LinkedIn"/>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Collapsible Group Item #3
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
-                </a>
+                </div>
               </div>
             </div>
           </div>
