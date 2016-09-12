@@ -74,12 +74,16 @@ body{
 /****** Main ******/
 
 #home, #experiences, #competences, #creation, #contact{
-  margin-top: 7%;
+  margin-top: 4%;
 }
 #hr1, #hr2, #hr3, #hr4{
   margin-left: 20%;
   margin-right: 20%;
   border: 2px solid #CF3A15;
+}
+.arrow{
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .arrow-top{
   width: 60px;
@@ -127,7 +131,13 @@ body{
 }
 
 section{
-  min-height: 600px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  min-height: 500px;
+}
+#home{
+  min-height: 450px;
+  padding-top: 2%;
 }
 .row{
   margin: 0;
@@ -251,6 +261,27 @@ footer{
 .img-create img{
   width: 200px;
   min-height: 200px;
+}
+.wrap-img{
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  padding-left: 3px;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+.container-div{
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 495px;
+  padding-top: 5px;
+  padding-left: 3px;
+}
+#delete-div{
+  display: block;
+  margin: auto;
 }
 
 /***** Contact *****/

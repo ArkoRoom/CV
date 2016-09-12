@@ -77,15 +77,17 @@
               </a>
             </div>
           </div>
+          <div class="col-md-8 col-md-offset-2 arrow">
+            <a href="#experiences" class="arrow-bottom">
+              <div>
+                <i class="fa fa-chevron-down fa-3x"></i>
+              </div>
+            </a>
+            <hr id="hr1">
+          </div>
         </div>
       </section><!-- /Home -->
 
-      <a href="#experiences" class="arrow-bottom">
-        <div>
-          <i class="fa fa-chevron-down fa-3x"></i>
-        </div>
-      </a>
-      <hr id="hr1">
       <!-- Expériences -->
       <section id="experiences">
         <div class="col-md-12 move">
@@ -110,15 +112,17 @@
               </p>
             </div>
           </div>
+          <div class="col-md-8 col-md-offset-2 arrow">
+            <a href="#competences" class="arrow-bottom">
+              <div>
+                <i class="fa fa-chevron-down fa-3x"></i>
+              </div>
+            </a>
+            <hr id="hr2">
+          </div>
         </div>
       </section><!-- /Expériences -->
 
-      <a href="#competences" class="arrow-bottom">
-        <div>
-          <i class="fa fa-chevron-down fa-3x"></i>
-        </div>
-      </a>
-      <hr id="hr2">
       <!-- Compétences -->
       <section id="competences">
         <div class="col-md-12 move">
@@ -194,15 +198,17 @@
               </div>
             </div>
           </div>
+          <div class="col-md-8 col-md-offset-2 arrow">
+            <a href="#creation" class="arrow-bottom">
+              <div>
+                <i class="fa fa-chevron-down fa-3x"></i>
+              </div>
+            </a>
+            <hr id="hr3">
+          </div>
         </div>
       </section><!-- /Compétences -->
 
-      <a href="#creation" class="arrow-bottom">
-        <div>
-          <i class="fa fa-chevron-down fa-3x"></i>
-        </div>
-      </a>
-      <hr id="hr3">
       <!-- Création -->
       <section id="creation">
         <div class="col-md-8 col-md-offset-2 move">
@@ -254,7 +260,30 @@
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                   <div class="panel-body">
+                    <div class="text-rules">
+                    <h2>Mini-Jeux du C'est plus ou c'est moins !</h2>
+                    <p>
+                      Bienvenue dans ce Mini-Jeu ! <br>
+                      La règle est simple. L'ordinateur a sélectionner un chiffre aléatoirement entre 1 et 100. <br>
+                      Vous disposez de 6 éssais maximum pour trouver ce chiffre. <br>
+                      Bonne chance !
+                    </p>
+                  </div>
+                  <div class="answer-user">
+                    <form>
+                      <div class="form-group">
+                        <label for="answerUser">Votre réponse</label>
+                        <input type="number" name="answerUser" id="answerUser" value="">
+                      </div>
+                      <input type="button" name="validAnswer" id="validAnswer" value="Valider">
+                    </form>
+                  </div>
+                  <div class="col-md-4 col-md-offset-4 answer">
 
+                  </div>
+                  <div class="col-md-4 col-md-offset-4">
+                    <input type="button" name="restart" id="restart" value="Rejouez">
+                  </div>
                   </div>
                 </div>
               </div>
@@ -269,21 +298,36 @@
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                   <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <div class="use-advice">
+                      <h2>Mouse Hover</h2>
+                      <p>
+                        Mouse Hover est un petit script qui permets de révéler une image en passant simplement son curseur sur la zone.<br>
+                        Des petits carrés se forment alors permettant de révéler tout ou partie de l'image selon votre souhait.<br>
+                        L'image est générée grâce à une variable aléatoire.
+                      </p>
+                    </div>
+                    <div class="col-md-10 col-md-offset-1">
+                      <div class="wrap-img">
+                        <div class="container-div">
+
+                        </div>
+                      </div>
+                    </div>
+                    <input type="button" class="btn btn-default" id="delete-div" name="name" value="Supprimer des carrés">
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <a href="#contact" class="arrow-bottom arrow">
+            <div>
+              <i class="fa fa-chevron-down fa-3x"></i>
+            </div>
+          </a>
+          <hr id="hr4">
         </div>
       </section><!-- /Création -->
 
-      <a href="#contact" class="arrow-bottom">
-        <div>
-          <i class="fa fa-chevron-down fa-3x"></i>
-        </div>
-      </a>
-      <hr id="hr4">
       <!-- Contact -->
       <section id="contact">
         <div class="col-md-12 move">
