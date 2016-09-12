@@ -36,11 +36,11 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="home move active"><a href="#home">Présentation</a></li>
-            <li class="experiences move"><a href="#experiences">Expériences</a></li>
-            <li class="move competences"><a href="#competences">Compétences</a></li>
-            <li class="move creation"><a href="#creation">Création</a></li>
-            <li class="move contact"><a href="#contact">Contact</a></li>
+            <li class="home"><a href="#home" class="move">Présentation</a></li>
+            <li class="experiences"><a href="#experiences" class="move">Expériences</a></li>
+            <li class="competences"><a href="#competences" class="move">Compétences</a></li>
+            <li class="creation"><a href="#creation" class="move">Création</a></li>
+            <li class="contact"><a href="#contact" class="move">Contact</a></li>
           </ul>
         </div>
       </nav><!-- /Nav -->

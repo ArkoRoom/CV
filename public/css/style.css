@@ -36,6 +36,11 @@ body{
 
 /****** Nav ******/
 
+.nav-scroll{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
 .navbar-collapse{
   padding-left: 0;
 }
