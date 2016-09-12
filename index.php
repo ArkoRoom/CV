@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="private/vendor/font-awesome/css/font-awesome.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="public/css/style.css" media="screen" title="no title">
   </head>
-  <body>
+  <body id="body">
     <div class="container-fluid">
+      <a href="#body" class="arrow-top">
+        <div>
+          <i class="fa fa-chevron-up fa-3x"></i>
+        </div>
+      </a>
 
       <div class="header">
         <div class="background-header-opacity"></div>
@@ -40,16 +45,9 @@
         </div>
       </nav><!-- /Nav -->
 
-      <section>
-        <!--
-        <div class="arrow-left">
-          <i class="fa fa-chevron-left fa-4x"></i>
-        </div>
-        <div class="arrow-right">
-          <i class="fa fa-chevron-right fa-4x"></i>
-        </div> -->
+      <section id="home">
         <!-- Home -->
-        <div id="home" class="col-md-12">
+        <div class="col-md-12">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <h2>Bonjour et bienvenue sur mon CV ! </h2>
@@ -79,9 +77,18 @@
               </a>
             </div>
           </div>
-        </div><!-- /Home -->
-        <!-- Expériences -->
-        <div id="experiences" class="col-md-12 move">
+        </div>
+      </section><!-- /Home -->
+
+      <a href="#experiences" class="arrow-bottom">
+        <div>
+          <i class="fa fa-chevron-down fa-3x"></i>
+        </div>
+      </a>
+      <hr id="hr1">
+      <!-- Expériences -->
+      <section id="experiences">
+        <div class="col-md-12 move">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <h2>Mes Expériences</h2>
@@ -103,9 +110,18 @@
               </p>
             </div>
           </div>
-        </div><!-- /Expériences -->
-        <!-- Compétences -->
-        <div id="competences" class="col-md-12 move">
+        </div>
+      </section><!-- /Expériences -->
+
+      <a href="#competences" class="arrow-bottom">
+        <div>
+          <i class="fa fa-chevron-down fa-3x"></i>
+        </div>
+      </a>
+      <hr id="hr2">
+      <!-- Compétences -->
+      <section id="competences">
+        <div class="col-md-12 move">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <h2>Mes Compétences</h2>
@@ -178,9 +194,18 @@
               </div>
             </div>
           </div>
-        </div><!-- /Compétences -->
-        <!-- Création -->
-        <div id="creation" class="col-md-12 move">
+        </div>
+      </section><!-- /Compétences -->
+
+      <a href="#creation" class="arrow-bottom">
+        <div>
+          <i class="fa fa-chevron-down fa-3x"></i>
+        </div>
+      </a>
+      <hr id="hr3">
+      <!-- Création -->
+      <section id="creation">
+        <div class="col-md-12 move">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <h2>Mes Créations</h2>
@@ -207,9 +232,18 @@
               </div>
             </div>
           </div>
-        </div><!-- /Création -->
-        <!-- Contact -->
-        <div id="contact" class="col-md-12 move">
+        </div>
+      </section><!-- /Création -->
+
+      <a href="#contact" class="arrow-bottom">
+        <div>
+          <i class="fa fa-chevron-down fa-3x"></i>
+        </div>
+      </a>
+      <hr id="hr4">
+      <!-- Contact -->
+      <section id="contact">
+        <div class="col-md-12 move">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <h2>Me Contacter</h2>
@@ -244,9 +278,8 @@
               </form>
             </div>
           </div>
-        </div><!-- /Contact -->
-
-      </section><!-- /Main -->
+        </div>
+      </section><!-- /Contact -->
 
       <footer class="col-md-12">
         <div class="col-md-2 col-md-offset-5 socials">

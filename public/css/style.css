@@ -66,6 +66,55 @@ body{
 }
 
 /****** Main ******/
+#hr1, #hr2, #hr3, #hr4{
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px solid #CF3A15;
+}
+.arrow-top{
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: #323E45;
+  color: #CF3A15;
+  border-radius: 10px 0px 0px 10px;
+  text-align: center;
+  z-index: 1;
+}
+.arrow-top:hover{
+  color: #323E45;
+  background-color: #CF3A15;
+}
+.arrow-top i{
+  position: relative;
+  animation: scrollTop 1s infinite;
+}
+@keyframes scrollTop {
+  0% {top: 2px;}
+  50% {top: 12px;}
+  100% {top: 2px;}
+}
+.arrow-bottom{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  animation: scrollBottom 1s infinite;
+  color: #010017;
+}
+.arrow-bottom:hover{
+  color: #CF3A15;
+}
+.arrow-bottom:focus{
+  color: #010017;
+}
+@keyframes scrollBottom {
+  0% {top: 0px;}
+  50% {top: 10px;}
+  100% {top: 0px;}
+}
 
 section{
   min-height: 600px;
@@ -104,48 +153,10 @@ section{
   font-size: 1.15em;
   text-align: center;
 }
-.arrow-left, .arrow-right{
-  position: absolute;
-  top: 600px;
-  cursor: pointer;
-}
-.arrow-left:hover, .arrow-right:hover{
-  cursor: pointer;
-}
-.arrow-right{
-  float: right;
-  right: 0;
-  animation: arrowRight 1s infinite;
-}
-.arrow-left{
-  animation: arrowLeft 1s infinite;
-}
-
-@keyframes arrowLeft {
-  0% {left: 0px;}
-  50% {left: 10px;}
-  100% {left: 0px;}
-}
-@keyframes arrowRight {
-  0% {right: 0px;}
-  50% {right: 10px;}
-  100% {right: 0px;}
-}
 
 /***** Slides *****/
 
-#home, #experiences, #competences, #creation, #contact {
-    position: relative;
-    float: left;
-    overflow: hidden;
-}
 
-div.move {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: none;
-}
 
 /***** Footer *****/
 
