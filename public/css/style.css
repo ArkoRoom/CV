@@ -164,9 +164,13 @@ section{
   text-align: center;
 }
 
-/***** Slides *****/
+/***** DropDown *****/
 
-
+#headingOne, #headingTwo, #headingThree{
+  background-color: #010017;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+}
 
 /***** Footer *****/
 

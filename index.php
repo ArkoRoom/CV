@@ -9,7 +9,7 @@
   </head>
   <body id="body">
     <div class="container-fluid">
-      <a href="#nav" class="arrow-top">
+      <a href="#body" class="arrow-top">
         <div>
           <i class="fa fa-chevron-up fa-3x"></i>
         </div>
@@ -263,7 +263,7 @@
                 <div class="panel-heading" role="tab" id="headingThree">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Collapsible Group Item #3
+                      Réalisation / Effet
                     </a>
                   </h4>
                 </div>
