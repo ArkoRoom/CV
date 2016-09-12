@@ -40,7 +40,7 @@
         </div>
       </nav><!-- /Nav -->
 
-      <main>
+      <section>
         <div class="arrow-left">
           <i class="fa fa-chevron-left fa-4x"></i>
         </div>
@@ -213,18 +213,40 @@
             <div class="col-md-8 col-md-offset-2">
               <h2>Me Contacter</h2>
               <p>
-                A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
-                Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein de la Cyber-Base d'Euratechnologies à Lille.<br>
-                A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
-                J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.
+                Vous arrivez aux termes de ce CV. <br>
+                Merci de votre visite et n'hésitez pas à me contacter via le formulaire ci-dessous pour toutes demandes et/ou renseignements.<br>
+                A bientôt !
               </p>
+              <form action="index.html" method="post">
+                <div class="form-group">
+                  <label for="name">Nom</label>
+                  <input type="text" class="form-control" id="name" placeholder="Votre nom...">
+                </div>
+                <div class="form-group">
+                  <label for="firstname">Prénom</label>
+                  <input type="text" class="form-control" id="firstname" placeholder="Votre prénom...">
+                </div>
+                <div class="form-group">
+                  <label for="mail">Adresse e-mail</label>
+                  <input type="email" class="form-control" id="mail" placeholder="Votre adresse e-mail...">
+                </div>
+                <div class="form-group">
+                  <label for="subject">Sujet</label>
+                  <input type="text" class="form-control" id="subject" placeholder="Sujet de votre message...">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="8" placeholder="Votre message..."></textarea>
+                </div>
+                <input id="submit" class="btn btn-default" type="button" name="submit" value="Envoyer !">
+              </form>
             </div>
           </div>
         </div><!-- /Contact -->
 
-      </main><!-- /Main -->
+      </section><!-- /Main -->
 
-      <footer>
+      <footer class="col-md-12">
         <div class="col-md-2 col-md-offset-5 socials">
           <a href="https://www.facebook.com/Arkolips" target="_blank">
             <div class="col-md-2 social facebook"></div>

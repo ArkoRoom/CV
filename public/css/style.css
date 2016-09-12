@@ -67,7 +67,7 @@ body{
 
 /****** Main ******/
 
-main{
+section{
   min-height: 600px;
 }
 .row{
@@ -226,4 +226,16 @@ footer{
 .img-create img{
   width: 200px;
   min-height: 200px;
+}
+
+/***** Contact *****/
+
+form{
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 5%;
+}
+#submit{
+  display: block;
+  margin: auto;
 }
