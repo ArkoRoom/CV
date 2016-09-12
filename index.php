@@ -149,7 +149,7 @@
                     </tbody>
                   </table>
                   <p>
-                    <strong>Autres :</strong> Bower, Composer, Git, Trello, Balsamiq.
+                    <strong>Autres :</strong> Sublime Text, Atom, Bower, Composer, Git, Trello, Balsamiq.
                   </p>
                 </div>
                 <div class="col-md-6">
@@ -187,6 +187,23 @@
                 Vous pouvez trouver ici quelques liens vers les sites que j'ai pu réaliser lors de mes formations. <br>
                 Vous avez aussi un lien vers mon profil LinkedIn ainsi que vers mon GitHub.
               </p>
+              <div class="col-md-12">
+                <a href="http://btech-lille.com/btech7/x2000/html/formations.html" target="_blank">
+                  <div class="col-md-4 img-create">
+                    <img src="public/img/x2000.gif" alt="Logo x2000" title="Association x2000" />
+                  </div>
+                </a>
+                <a href="https://github.com/ArkoRoom" target="_blank">
+                  <div class="col-md-4 img-create">
+                    <img src="public/img/github.gif" alt="Logo Github" title="Mon Github" />
+                  </div>
+                </a>
+                <a href="https://fr.linkedin.com/in/ludovic-catel" target="_blank">
+                  <div class="col-md-4 img-create">
+                    <img src="public/img/linkedin.png" alt="Logo linkedin" title="Mon LinkedIn"/>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div><!-- /Création -->

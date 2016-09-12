@@ -219,3 +219,11 @@ footer{
 }
 
 /***** Compétences *****/
+
+
+/***** Création *****/
+
+.img-create img{
+  width: 200px;
+  min-height: 200px;
+}
