@@ -109,11 +109,72 @@
             <div class="col-md-8 col-md-offset-2">
               <h2>Mes Compétences</h2>
               <p>
-                A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
-                Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein de la Cyber-Base d'Euratechnologies à Lille.<br>
-                A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
-                J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.
+                Voici le détails de mes compétences :
               </p>
+              <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-6">
+                  <h3>Web</h3>
+                  <table class="table table-hover web">
+                    <thead>
+                      <th>Langages</th>
+                      <th>Framework</th>
+                      <th>Outils</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>HTML5</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>CSS3</td>
+                        <td>Bootstrap</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>JavaScript</td>
+                        <td>jQuery</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>PHP 5 & 7</td>
+                        <td>Architecture MVC</td>
+                        <td>POO</td>
+                      </tr>
+                      <tr>
+                        <td>SQL (MySQL)</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>
+                    <strong>Autres :</strong> Bower, Composer, Git, Trello, Balsamiq.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <h3>Print</h3>
+                  <table class="table table-hover print">
+                    <thead>
+                      <th>Logiciels</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Adobe InDesign</td>
+                      </tr>
+                      <tr>
+                        <td>Adobe Photoshop</td>
+                      </tr>
+                      <tr>
+                        <td>Adobe Illustrator</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>
+                    <strong>Autres :</strong> Créo, Preps7, Microsoft Office.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div><!-- /Compétences -->
@@ -123,10 +184,8 @@
             <div class="col-md-8 col-md-offset-2">
               <h2>Mes Créations</h2>
               <p>
-                A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
-                Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein de la Cyber-Base d'Euratechnologies à Lille.<br>
-                A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
-                J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.
+                Vous pouvez trouver ici quelques liens vers les sites que j'ai pu réaliser lors de mes formations. <br>
+                Vous avez aussi un lien vers mon profil LinkedIn ainsi que vers mon GitHub.
               </p>
             </div>
           </div>
@@ -167,7 +226,7 @@
           </a>
         </div>
         <div class="col-md-4 col-md-offset-4 text-footer">
-          <p>Site réalisé par Ludovic CATEL</p>
+          <p>Site réalisé par Ludovic CATEL - 2016</p>
         </div>
       </footer><!-- /Footer -->
     </div><!-- /Container FLuid -->

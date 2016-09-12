@@ -134,7 +134,7 @@ main{
 
 /***** Slides *****/
 
-#home, #experiences {
+#home, #experiences, #competences, #creation, #contact {
     position: relative;
     float: left;
     overflow: hidden;
@@ -217,3 +217,5 @@ footer{
   color: #CF3A15;
   font-weight: bold;
 }
+
+/***** Compétences *****/
