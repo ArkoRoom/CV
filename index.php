@@ -63,16 +63,16 @@
 
           <div class="row">
             <div class="col-md-8 col-md-offset-2 center-button">
-              <a href="#experiences" class="btn btn-default div-button experiences col-md-2">
+              <a href="#experiences" class="btn btn-default div-button experiences move col-md-2">
                 <i class="fa fa-exchange fa-4x"></i>Expériences
               </a>
-              <a href="#competences" class="btn btn-default div-button competences col-md-2">
+              <a href="#competences" class="btn btn-default div-button competences move col-md-2">
                 <i class="fa fa-pied-piper fa-4x"></i>Compétences
               </a>
-              <a href="#creation" class="btn btn-default div-button creation col-md-2">
+              <a href="#creation" class="btn btn-default div-button creation move col-md-2">
                 <i class="fa fa-paint-brush fa-4x"></i>Création
               </a>
-              <a href="#contact" class="btn btn-default div-button contact col-md-2">
+              <a href="#contact" class="btn btn-default div-button contact move col-md-2">
                 <i class="fa fa fa-envelope fa-4x"></i>Contact
               </a>
             </div>
