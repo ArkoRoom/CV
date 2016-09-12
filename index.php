@@ -85,10 +85,20 @@
             <div class="col-md-8 col-md-offset-2">
               <h2>Mes Expériences</h2>
               <p>
-                A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
-                Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein de la Cyber-Base d'Euratechnologies à Lille.<br>
-                A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
-                J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.
+                Etant actuellement Développeur Junior, je n'ai pas d'expériences significatives dans le domaine du Web. <br>
+                Je vais donc vous mettre les projets sur lesquels j'ai travaillé lors de mon initiation Btech et de ma formation Webforce3 à Lille.
+              </p>
+              <p>
+                <span class="title-experiences">Aout 2016 : </span>Projet "Famil'Ease", site de gestion pour famille divorcé. <br>
+                J'ai été en charge d'une grosse partie du développement frontend.<br>
+                Je venais également en aide quand je le pouvais sur divers petits bugs.
+              </p>
+              <p>
+                <span class="title-experiences">Février 2016 : </span>Refonte du site "x2000", association dans le domaine des formations numériques à Lille. <br>
+                Cette refonte n'a pas été sélectionner et étant réalisée lors d'une initiation aux métiers du numérique, il y a forcément des erreurs de développement (tel que les includes en PHP, les formulaires qui ne fonctionnent pas...).<br>
+              </p>
+              <p>
+                <span class="title-experiences">Septembre 2012 à Aout 2015 : </span>Diverses expériences dans le domaine des industries graphiques en intérim ou CDD.
               </p>
             </div>
           </div>
