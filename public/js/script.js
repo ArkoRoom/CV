@@ -76,7 +76,7 @@ $(function () {
   });
 
   //On génére aléatoirement une image
-  nbSquare = 462;
+  nbSquare = 418;
   var img = [
     'img1.jpg',
     'img2.png',

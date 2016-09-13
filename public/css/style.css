@@ -1,7 +1,8 @@
 /***** Body *****/
 
 body{
-
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.8em;
 }
 .container-fluid{
   padding: 0;
@@ -19,11 +20,13 @@ body{
   font-size: 5.2em;
   font-weight: bold;
   border-top: 7px solid #CF3A15;
+  font-family: 'Oswald', sans-serif;
 }
 .text-bottom-header{
   font-size: 3em;
   font-weight: bold;
   border-bottom: 7px solid #CF3A15;
+  font-family: 'Oswald', sans-serif;
 }
 
 /****** Nav ******/

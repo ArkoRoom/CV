@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Catel Ludovic</title>
-    <link rel="stylesheet" href="private/vendor/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title">
-    <link rel="stylesheet" href="private/vendor/font-awesome/css/font-awesome.min.css" media="screen" title="no title">
-    <link rel="stylesheet" href="public/css/style.css" media="screen" title="no title">
+    <link rel="stylesheet" href="private/vendor/bootstrap/dist/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="private/vendor/font-awesome/css/font-awesome.min.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css" media="screen">
   </head>
   <body id="body">
     <div class="container-fluid">
