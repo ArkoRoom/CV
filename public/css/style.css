@@ -302,3 +302,9 @@ form label{
   display: block;
   margin: auto;
 }
+
+/***** Verif *****/
+
+.verif-ok, .verif-error{
+  display: none;
+}

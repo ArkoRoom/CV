@@ -342,12 +342,23 @@
               </p>
               <form action="index.html" method="post">
                 <div class="form-group">
-                  <label for="name">Nom</label>
-                  <input type="text" class="form-control" id="name" placeholder="Votre nom...">
+                  <div class="col-md-10">
+                    <label for="name">Nom</label>
+                    <input type="text" class="form-control" id="name" placeholder="Votre nom...">
+                  </div>
+                  <div id="verifName" class="col-md-2">
+                    <i class="verif-ok fa fa-check-circle fa-2x"></i>
+                    <i class="verif-error fa fa-times-circle fa-2x"></i>
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label for="firstname">Prénom</label>
-                  <input type="text" class="form-control" id="firstname" placeholder="Votre prénom...">
+                  <div class="col-md-10">
+                    <label for="firstname">Prénom</label>
+                    <input type="text" class="form-control" id="firstname" placeholder="Votre prénom...">
+                  </div>
+                  <div id="verifFirstname" class="col-md-2">
+                    <i class="fa  fa-3x"></i>
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="mail">Adresse e-mail</label>
@@ -395,5 +406,6 @@
     <script src="private/vendor/jquery/dist/jquery.min.js" charset="utf-8"></script>
     <script src="private/vendor/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
     <script src="public/js/script.js" charset="utf-8"></script>
+    <script src="public/js/verif.js" charset="utf-8"></script>
   </body>
 </html>
