@@ -298,6 +298,9 @@ form{
 form label{
   color: #FFFFFF;
 }
+#message{
+  margin-bottom: 2%;
+}
 #submit{
   display: block;
   margin: auto;
@@ -305,6 +308,9 @@ form label{
 
 /***** Verif *****/
 
-.verif-ok, .verif-error{
+.verifName-ok, .verifName-error, .verifFirstname-ok, .verifFirstname-error, .verifMail-ok, .verifMail-error,
+.verifSubject-ok, .verifSubject-error, .verifMessage-ok, .verifMessage-error{
   display: none;
+  position: relative;
+  top: 25px;
 }

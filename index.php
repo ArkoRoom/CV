@@ -40,7 +40,7 @@
             <li class="experiences"><a href="#experiences" class="move">Expériences</a></li>
             <li class="competences"><a href="#competences" class="move">Compétences</a></li>
             <li class="creation"><a href="#creation" class="move">Création</a></li>
-            <li class="contact"><a href="#contact" class="move">Contact</a></li>
+            <li class="contact"><a href="#form-contact" class="move">Contact</a></li>
           </ul>
         </div>
       </nav><!-- /Nav -->
@@ -72,7 +72,7 @@
               <a href="#creation" class="btn btn-default div-button creation move col-md-2">
                 <i class="fa fa-paint-brush fa-4x"></i>Création
               </a>
-              <a href="#contact" class="btn btn-default div-button contact move col-md-2">
+              <a href="#form-contact" class="btn btn-default div-button contact move col-md-2">
                 <i class="fa fa fa-envelope fa-4x"></i>Contact
               </a>
             </div>
@@ -340,37 +340,56 @@
                 N'hésitez pas à me suivre sur mes réseaux sociaux disponible dans le bas de la page. <br>
                 A bientôt !
               </p>
-              <form action="index.html" method="post">
+              <form id="form-contact" action="contact.php" method="POST">
                 <div class="form-group">
-                  <div class="col-md-10">
+                  <div class="col-md-11">
                     <label for="name">Nom</label>
                     <input type="text" class="form-control" id="name" placeholder="Votre nom...">
                   </div>
-                  <div id="verifName" class="col-md-2">
-                    <i class="verif-ok fa fa-check-circle fa-2x"></i>
-                    <i class="verif-error fa fa-times-circle fa-2x"></i>
+                  <div id="verifName" class="col-md-1">
+                    <i class="verifName-ok fa fa-check-circle fa-2x"></i>
+                    <i class="verifName-error fa fa-times-circle fa-2x"></i>
                   </div>
                 </div>
                 <div class="form-group">
-                  <div class="col-md-10">
+                  <div class="col-md-11">
                     <label for="firstname">Prénom</label>
                     <input type="text" class="form-control" id="firstname" placeholder="Votre prénom...">
                   </div>
-                  <div id="verifFirstname" class="col-md-2">
-                    <i class="fa  fa-3x"></i>
+                  <div id="verifFirstname" class="col-md-1">
+                    <i class="verifFirstname-ok fa fa-check-circle fa-2x"></i>
+                    <i class="verifFirstname-error fa fa-times-circle fa-2x"></i>
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="mail">Adresse e-mail</label>
-                  <input type="email" class="form-control" id="mail" placeholder="Votre adresse e-mail...">
+                  <div class="col-md-11">
+                    <label for="mail">Adresse e-mail</label>
+                    <input type="email" class="form-control" id="mail" placeholder="Votre adresse e-mail...">
+                  </div>
+                  <div id="verifMail" class="col-md-1">
+                    <i class="verifMail-ok fa fa-check-circle fa-2x"></i>
+                    <i class="verifMail-error fa fa-times-circle fa-2x"></i>
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label for="subject">Sujet</label>
-                  <input type="text" class="form-control" id="subject" placeholder="Sujet de votre message...">
+                  <div class="col-md-11">
+                    <label for="subject">Sujet</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Sujet de votre message...">
+                  </div>
+                  <div id="verifSubject" class="col-md-1">
+                    <i class="verifSubject-ok fa fa-check-circle fa-2x"></i>
+                    <i class="verifSubject-error fa fa-times-circle fa-2x"></i>
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label for="message">Message</label>
-                  <textarea class="form-control" id="message" rows="8" placeholder="Votre message..."></textarea>
+                  <div class="col-md-11">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="8" placeholder="Votre message..."></textarea>
+                  </div>
+                  <div id="verifMessage" class="col-md-1">
+                    <i class="verifMessage-ok fa fa-check-circle fa-2x"></i>
+                    <i class="verifMessage-error fa fa-times-circle fa-2x"></i>
+                  </div>
                 </div>
                 <input id="submit" class="btn btn-default" type="button" name="submit" value="Envoyer !">
               </form>
