@@ -275,7 +275,7 @@
                         <label for="answerUser">Votre réponse</label>
                         <input type="number" name="answerUser" id="answerUser" value="">
                       </div>
-                      <input type="button" name="validAnswer" id="validAnswer" value="Valider">
+                      <input class="btn btn-default" type="button" name="validAnswer" id="validAnswer" value="Valider">
                     </form>
                   </div>
                   <div class="col-md-4 col-md-offset-4 answer">

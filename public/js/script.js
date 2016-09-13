@@ -66,12 +66,14 @@ $(function () {
       else if (answer === solution) {
         $(".answer").append("<p>Bravo ! Le nombre a trouvé était bien <strong>" + solution + ".</strong><br>Vous avez trouvé en " + count + " éssai(s) sur " + finalCount + ".<br>Vous pouvez rejouer en cliquant sur le bouton <strong>'Rejouez'.</strong></p>")
         $("#restart").show();
+        $('#validAnswer').addClass('disabled');
         break;
       }
     }
     if (count === finalCount) {
       $(".answer").append("<p>Dommage ! Vous avez utilisé vos " + finalCount + " éssais.<br>Le chiffre à trouver été <strong>" + solution + ".</strong><br>Retentez votre chance !</p>")
       $("#restart").show();
+      $('#validAnswer').addClass('disabled');
     }
   });
 
