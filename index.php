@@ -54,7 +54,7 @@
               <p>
                 Je suis Ludovic CATEL, j'ai 27 ans et j'habite dans le Nord (59). <br>
                 A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
-                Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein de la Cyber-Base d'Euratechnologies à Lille.<br>
+                Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein du programme Btech à la Cyber-Base d'Euratechnologies à Lille.<br>
                 A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
                 J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.
               </p>
@@ -344,7 +344,13 @@
                 <div class="form-group">
                   <div class="col-md-11">
                     <label for="name">Nom</label>
-                    <input type="text" class="form-control" id="name" placeholder="Votre nom...">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Votre nom...">
+                    <?php
+                      if (isset($_POST['name']) && strlen($_POST['name']) < 3 && strlen($_POST['name']) > 30) {
+                        $validate = false;
+                        echo "<p class='error'>Erreur ! Vous devez saisir un nom compris entre 3 et 30 caractères.</p>";
+                      }
+                    ?>
                   </div>
                   <div id="verifName" class="col-md-1">
                     <i class="verifName-ok fa fa-check-circle fa-2x"></i>
@@ -354,7 +360,13 @@
                 <div class="form-group">
                   <div class="col-md-11">
                     <label for="firstname">Prénom</label>
-                    <input type="text" class="form-control" id="firstname" placeholder="Votre prénom...">
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Votre prénom...">
+                    <?php
+                      if (isset($_POST['firstname']) && strlen($_POST['firstname']) < 3 && strlen($_POST['firstname']) > 30) {
+                        $validate = false;
+                        echo "<p class='error'>Erreur ! Vous devez saisir un nom compris entre 3 et 30 caractères.</p>";
+                      }
+                    ?>
                   </div>
                   <div id="verifFirstname" class="col-md-1">
                     <i class="verifFirstname-ok fa fa-check-circle fa-2x"></i>
@@ -364,7 +376,13 @@
                 <div class="form-group">
                   <div class="col-md-11">
                     <label for="mail">Adresse e-mail</label>
-                    <input type="email" class="form-control" id="mail" placeholder="Votre adresse e-mail...">
+                    <input type="email" class="form-control" id="mail" name="mail" placeholder="Votre adresse e-mail...">
+                    <?php
+                      if (isset($_POST['mail']) && !filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL)) {
+                        $validate = false;
+                        echo "<p class='error'>Erreur ! Vous devez saisir une adresse e-mail valide.</p>";
+                      }
+                    ?>
                   </div>
                   <div id="verifMail" class="col-md-1">
                     <i class="verifMail-ok fa fa-check-circle fa-2x"></i>
@@ -374,7 +392,13 @@
                 <div class="form-group">
                   <div class="col-md-11">
                     <label for="subject">Sujet</label>
-                    <input type="text" class="form-control" id="subject" placeholder="Sujet de votre message...">
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet de votre message...">
+                    <?php
+                      if (isset($_POST['subject']) && strlen($_POST['subject']) < 5 && strlen($_POST['subject']) > 64) {
+                        $validate = false;
+                        echo "<p class='error'>Erreur ! Vous devez saisir un sujet compris entre 5 et 64 caractères.</p>";
+                      }
+                    ?>
                   </div>
                   <div id="verifSubject" class="col-md-1">
                     <i class="verifSubject-ok fa fa-check-circle fa-2x"></i>
@@ -384,7 +408,13 @@
                 <div class="form-group">
                   <div class="col-md-11">
                     <label for="message">Message</label>
-                    <textarea class="form-control" id="message" rows="8" placeholder="Votre message..."></textarea>
+                    <textarea class="form-control" id="message" rows="8" name="message" placeholder="Votre message..."></textarea>
+                    <?php
+                      if (isset($_POST['message']) && strlen($_POST['message']) < 30 && strlen($_POST['message']) > 5000) {
+                        $validate = false;
+                        echo "<p class='error'>Erreur ! Vous devez saisir un message plus long ou plus court.</p>";
+                      }
+                    ?>
                   </div>
                   <div id="verifMessage" class="col-md-1">
                     <i class="verifMessage-ok fa fa-check-circle fa-2x"></i>
@@ -392,6 +422,11 @@
                   </div>
                 </div>
                 <input id="submit" class="btn btn-default" type="button" name="submit" value="Envoyer !">
+                <?php
+                  if (isset($_POST['submit']) && $validate) {
+
+                  }
+                ?>
               </form>
             </div>
           </div>
