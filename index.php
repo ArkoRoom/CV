@@ -340,7 +340,10 @@
                 N'hésitez pas à me suivre sur mes réseaux sociaux disponible dans le bas de la page. <br>
                 A bientôt !
               </p>
-              <form id="form-contact" action="contact.php" method="POST">
+              <form id="form-contact" action="index.php" method="POST">
+                <?php
+                  $validate = true;
+                ?>
                 <div class="form-group">
                   <div class="col-md-11">
                     <label for="name">Nom</label>
@@ -421,7 +424,7 @@
                     <i class="verifMessage-error fa fa-times-circle fa-2x"></i>
                   </div>
                 </div>
-                <input id="submit" class="btn btn-default" type="button" name="submit" value="Envoyer !">
+                <input id="submit" class="btn btn-default" type="submit" name="submit" value="Envoyer !">
                 <?php
                   if (isset($_POST['submit']) && $validate) {
                    $to  = 'catel.ludovic@gmail.com';
