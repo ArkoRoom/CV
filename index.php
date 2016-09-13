@@ -15,15 +15,14 @@
         </div>
       </a>
 
-      <div class="header">
-        <div class="background-header-opacity"></div>
+      <div class="header col-md-12">
         <div class="col-md-4 col-md-offset-4">
           <p class="text-top-header">CATEL LUDOVIC</p>
           <p class="text-bottom-header">DEVELOPPEUR WEB JUNIOR</p>
         </div>
       </div><!-- /Header -->
 
-      <nav id="nav" class="navbar navbar-default">
+      <nav id="nav" class="navbar navbar-default col-md-12">
         <!-- Responsive Nav -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -299,10 +298,10 @@
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                   <div class="panel-body">
                     <div class="use-advice">
-                      <h2>Mouse Hover</h2>
+                      <h2>Discover</h2>
                       <p>
-                        Mouse Hover est un petit script qui permets de révéler une image en passant simplement son curseur sur la zone.<br>
-                        Des petits carrés se forment alors permettant de révéler tout ou partie de l'image selon votre souhait.<br>
+                        Discover est un petit script qui permets de révéler une partie de l'image en cliquant simplement sur le bouton sous l'image.<br>
+                        Des carrés disparaissent alors permettant de révéler une partie de l'image.<br>
                         L'image est générée grâce à une variable aléatoire.
                       </p>
                     </div>
@@ -460,25 +459,25 @@
         </div>
       </section><!-- /Contact -->
 
-      <footer class="col-md-12">
-        <div class="col-md-2 col-md-offset-5 socials">
+      <footer class="col-md-12 col-sm-12 col-xs-12 socials">
+        <div class="col-md-4 col-md-offset-4">
           <a href="https://www.facebook.com/Arkolips" target="_blank">
-            <div class="col-md-2 social facebook"></div>
+            <div class="social facebook"></div>
           </a>
           <a href="https://twitter.com/Arkolips" target="_blank">
-            <div class="col-md-2 social twitter"></div>
+            <div class="social twitter"></div>
           </a>
           <a href="https://fr.linkedin.com/in/ludovic-catel" target="_blank">
-            <div class="col-md-2 social linkedin"></div>
+            <div class="social linkedin"></div>
           </a>
           <a href="https://github.com/ArkoRoom" target="_blank">
-            <div class="col-md-2 social git"></div>
+            <div class="social git"></div>
           </a>
           <a href="https://plus.google.com/108315228598108840637" target="_blank">
-            <div class="col-md-2 social google"></div>
+            <div class="social google"></div>
           </a>
         </div>
-        <div class="col-md-4 col-md-offset-4 text-footer">
+        <div class="col-md-12 text-footer">
           <p>Site réalisé par Ludovic CATEL - 2016</p>
         </div>
       </footer><!-- /Footer -->

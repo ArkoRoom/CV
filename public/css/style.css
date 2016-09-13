@@ -15,14 +15,6 @@ body{
   padding-top: 1.5%;
   text-align: center;
 }
-.background-header-opacity{
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 250px;
-  background-color: #FFFFFF;
-  opacity: 0.4;
-}
 .text-top-header{
   font-size: 5.2em;
   font-weight: bold;
@@ -194,16 +186,18 @@ footer{
   min-height: 110px;
   background-color: #CF3A15;
 }
-.col-md-offset-5{
-  margin-left: 43%;
-}
 .text-footer{
   text-align: center;
 }
 .socials{
-  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  text-align: center;
+  min-height: 60px;
 }
 .social{
+  display: inline-block;
+  text-align: center;
   width: 42px;
   height: 42px;
   margin-left: 1%;
