@@ -477,7 +477,7 @@
           </a>
         </div>
         <div class="col-md-12 text-footer">
-          <p>Site réalisé par Ludovic CATEL - 2016</p>
+          <p>Site réalisé par Ludovic CATEL - 2016 - version 1.0</p>
         </div>
       </footer><!-- /Footer -->
     </div><!-- /Container FLuid -->
