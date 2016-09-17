@@ -112,9 +112,17 @@ $(function () {
     }
 
   // On crée l'effet "Suppression"
+  var countClick = 0;
+  var finalCountClick = 3;
   $('#delete-div').click(function () {
-    for (var i = 0; i < (nbSquare / 3); i++) {
-      $('.div-mouse-hover' + getRandomIntInclusive(0, nbSquare) ).fadeTo('slow', 0.1);
+    countClick++;
+    if (countClick != finalCountClick) {
+      for (var i = 0; i < (nbSquare / 3); i++) {
+        $('.div-mouse-hover' + getRandomIntInclusive(0, nbSquare) ).fadeTo('slow', 0.1);
+      }
+    }
+    else {
+      $('#delete-div').addClass('disabled');
     }
   });
 
