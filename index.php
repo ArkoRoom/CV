@@ -338,7 +338,7 @@
                 N'hésitez pas à me suivre sur mes réseaux sociaux disponible dans le bas de la page. <br>
                 A bientôt !
               </p>
-              <form class="col-md-6 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1" id="form-contact" action="index.php" method="POST">
+              <form class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1" id="form-contact" action="index.php" method="POST">
                 <?php
                   $validate = true;
                 ?>
