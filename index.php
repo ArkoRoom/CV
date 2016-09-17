@@ -61,7 +61,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row hidden-xs">
             <div class="col-md-8 col-md-offset-2 center-button">
               <a href="#experiences" class="btn btn-default div-button experiences move col-md-2">
                 <i class="fa fa-exchange fa-4x"></i>Expériences
@@ -338,7 +338,7 @@
                 N'hésitez pas à me suivre sur mes réseaux sociaux disponible dans le bas de la page. <br>
                 A bientôt !
               </p>
-              <form id="form-contact" action="index.php" method="POST">
+              <form class="col-md-6 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1" id="form-contact" action="index.php" method="POST">
                 <?php
                   $validate = true;
                 ?>
