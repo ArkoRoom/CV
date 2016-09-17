@@ -17,7 +17,7 @@
       </a>
 
       <div class="header col-md-12">
-        <div class="col-md-4 col-md-offset-4">
+        <div class="col-md-8 col-md-offset-2 col-sm-12">
           <p class="text-top-header">CATEL LUDOVIC</p>
           <p class="text-bottom-header">DEVELOPPEUR WEB JUNIOR</p>
         </div>
