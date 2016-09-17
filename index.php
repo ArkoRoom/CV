@@ -425,29 +425,12 @@
                 <input id="submit" class="btn btn-default" type="submit" name="submit" value="Envoyer !">
                 <?php
                   if (isset($_POST['submit']) && $validate) {
-                   $to  = 'catel.ludovic@gmail.com';
-                   $subject = $_POST['subject'];
-                   $message = '
-                   <html>
-                    <head>
-                      <title>Email de ' . $_POST['name'] . ' ' . $_POST['firstname'] . '
-                    </head>
-                    <body>
-                      <p>
-                        Adresse email : ' . $_POST['mail'] . '
-                      </p>
-                      <p>
-                        Sujet : ' . $_POST['subject'] . '
-                      </p>
-                      <p>
-                        ' . $_POST['message'] . '
-                      </p>
-                    </body>
-                   </html>
-                   ';
-                   $headers  = 'MIME-Version: 1.0' . "\r\n";
-                   $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-                   mail($to, $subject, $message, $headers);
+                    $to      = 'catel.ludovic@gmail.com';
+                    $subject = $_POST['subject'];
+                    $message = $_POST['message'];
+                    $headers = $_POST['mail'] . "\r\n";
+
+                    mail($to, $subject, $message, $headers);
 
                    echo "<p class='success'>Message envoyé !</p>";
                   }
