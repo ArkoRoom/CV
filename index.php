@@ -2,6 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="Développeur frontend, développeur junior, intégrateur Web, étudiant Webforce3">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="keywords" content="développement, développement web, intégration web">
+    <meta name="author" content="Ludovic Catel">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Catel Ludovic</title>
     <link rel="stylesheet" href="private/vendor/bootstrap/dist/css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="private/vendor/font-awesome/css/font-awesome.min.css" media="screen">
