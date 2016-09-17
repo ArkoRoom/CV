@@ -61,7 +61,7 @@
             </div>
           </div>
 
-          <div class="row hidden-xs">
+          <div class="row hidden-sm hidden-xs">
             <div class="col-md-8 col-md-offset-2 center-button">
               <a href="#experiences" class="btn btn-default div-button experiences move col-md-2">
                 <i class="fa fa-exchange fa-4x"></i>Expériences
@@ -104,7 +104,7 @@
             </p>
             <p>
               <span class="title-experiences">Février 2016 : </span>Refonte du site "x2000", association dans le domaine des formations numériques à Lille. <br>
-              Cette refonte n'a pas été sélectionner et étant réalisée lors d'une initiation aux métiers du numérique, il y a forcément des erreurs de développement (tel que les includes en PHP, les formulaires qui ne fonctionnent pas...).<br>
+              Cette refonte n'a pas été sélectionnée et étant réalisée lors d'une initiation aux métiers du numérique, il y a forcément des erreurs de développement (tel que les includes en PHP, les formulaires qui ne fonctionnent pas...).<br>
             </p>
             <p>
               <span class="title-experiences">Septembre 2012 à Aout 2015 : </span>Diverses expériences dans le domaine des industries graphiques en intérim ou CDD.
