@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="private/vendor/font-awesome/css/font-awesome.min.css" media="screen">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="public/css/style.css" media="screen">
+    <link rel="icon" type="image/png" href="public/img/cherry.jpg" />
   </head>
   <body id="body">
     <div class="container-fluid">
