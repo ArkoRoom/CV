@@ -12,7 +12,7 @@
     <div class="container-fluid">
       <a href="#body" class="arrow-top">
         <div>
-          <i class="fa fa-chevron-up fa-3x"></i>
+          <i class="fa fa-chevron-up fa-2x"></i>
         </div>
       </a>
 
@@ -45,7 +45,7 @@
         </div>
       </nav><!-- /Nav -->
 
-      <section id="home">
+      <section id="home" class="col-md-12">
         <!-- Home -->
         <div class="col-md-12">
           <div class="row">
@@ -89,42 +89,40 @@
       </section><!-- /Home -->
 
       <!-- Expériences -->
-      <section id="experiences">
-        <div class="col-md-12 move">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2>Mes Expériences</h2>
-              <p>
-                Etant actuellement Développeur Junior, je n'ai pas d'expériences significatives dans le domaine du Web. <br>
-                Je vais donc vous mettre les projets sur lesquels j'ai travaillé lors de mon initiation Btech et de ma formation Webforce3 à Lille.
-              </p>
-              <p>
-                <span class="title-experiences">Aout 2016 : </span>Projet "Famil'Ease", site de gestion pour famille divorcé. <br>
-                J'ai été en charge d'une grosse partie du développement frontend.<br>
-                Je venais également en aide quand je le pouvais sur divers petits bugs.
-              </p>
-              <p>
-                <span class="title-experiences">Février 2016 : </span>Refonte du site "x2000", association dans le domaine des formations numériques à Lille. <br>
-                Cette refonte n'a pas été sélectionner et étant réalisée lors d'une initiation aux métiers du numérique, il y a forcément des erreurs de développement (tel que les includes en PHP, les formulaires qui ne fonctionnent pas...).<br>
-              </p>
-              <p>
-                <span class="title-experiences">Septembre 2012 à Aout 2015 : </span>Diverses expériences dans le domaine des industries graphiques en intérim ou CDD.
-              </p>
+      <section id="experiences" class="col-md-12 move">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h2>Mes Expériences</h2>
+            <p>
+              Etant actuellement Développeur Junior, je n'ai pas d'expériences significatives dans le domaine du Web. <br>
+              Je vais donc vous mettre les projets sur lesquels j'ai travaillé lors de mon initiation Btech et de ma formation Webforce3 à Lille.
+            </p>
+            <p>
+              <span class="title-experiences">Aout 2016 : </span>Projet "Famil'Ease", site de gestion pour famille divorcé. <br>
+              J'ai été en charge d'une grosse partie du développement frontend.<br>
+              Je venais également en aide quand je le pouvais sur divers petits bugs.
+            </p>
+            <p>
+              <span class="title-experiences">Février 2016 : </span>Refonte du site "x2000", association dans le domaine des formations numériques à Lille. <br>
+              Cette refonte n'a pas été sélectionner et étant réalisée lors d'une initiation aux métiers du numérique, il y a forcément des erreurs de développement (tel que les includes en PHP, les formulaires qui ne fonctionnent pas...).<br>
+            </p>
+            <p>
+              <span class="title-experiences">Septembre 2012 à Aout 2015 : </span>Diverses expériences dans le domaine des industries graphiques en intérim ou CDD.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2 arrow">
+          <a href="#competences" class="arrow-bottom">
+            <div>
+              <i class="fa fa-chevron-down fa-3x"></i>
             </div>
-          </div>
-          <div class="col-md-8 col-md-offset-2 arrow">
-            <a href="#competences" class="arrow-bottom">
-              <div>
-                <i class="fa fa-chevron-down fa-3x"></i>
-              </div>
-            </a>
-            <hr id="hr2">
-          </div>
+          </a>
+          <hr id="hr2">
         </div>
       </section><!-- /Expériences -->
 
       <!-- Compétences -->
-      <section id="competences">
+      <section id="competences" class="col-md-12">
         <div class="col-md-12 move">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -210,7 +208,7 @@
       </section><!-- /Compétences -->
 
       <!-- Création -->
-      <section id="creation">
+      <section id="creation" class="col-md-12">
         <div class="col-md-8 col-md-offset-2 move">
           <div class="row">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -319,7 +317,7 @@
               </div>
             </div>
           </div>
-          <a href="#contact" class="arrow-bottom arrow">
+          <a href="#mail" class="arrow-bottom arrow">
             <div>
               <i class="fa fa-chevron-down fa-3x"></i>
             </div>
@@ -329,7 +327,7 @@
       </section><!-- /Création -->
 
       <!-- Contact -->
-      <section id="contact">
+      <section id="contact" class="col-md-12">
         <div class="col-md-12 move">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -460,7 +458,7 @@
         </div>
       </section><!-- /Contact -->
 
-      <footer class="col-md-12 col-sm-12 col-xs-12 socials">
+      <footer id="footer" class="col-md-12 col-sm-12 col-xs-12 socials">
         <div class="col-md-4 col-md-offset-4">
           <a href="https://www.facebook.com/Arkolips" target="_blank">
             <div class="social facebook"></div>

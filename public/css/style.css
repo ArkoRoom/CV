@@ -74,7 +74,7 @@ body{
 /****** Main ******/
 
 #home, #experiences, #competences, #creation, #contact{
-  margin-top: 4%;
+  padding-top: 3%;
 }
 #hr1, #hr2, #hr3, #hr4{
   margin-left: 20%;
@@ -106,9 +106,9 @@ body{
   animation: scrollTop 1s infinite;
 }
 @keyframes scrollTop {
-  0% {top: 2px;}
-  50% {top: 12px;}
-  100% {top: 2px;}
+  0% {top: 5px;}
+  50% {top: 15px;}
+  100% {top: 5px;}
 }
 .arrow-bottom{
   position: relative;
@@ -131,13 +131,13 @@ body{
 }
 
 section{
-  padding-top: 5%;
-  padding-bottom: 5%;
-  min-height: 500px;
+  min-height: 450px;
 }
 #home{
   min-height: 450px;
-  padding-top: 2%;
+}
+#experiences{
+  padding-top: 5%;
 }
 .row{
   margin: 0;
