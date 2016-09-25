@@ -63,24 +63,21 @@
                 A l'origine formé dans le domaine de la Communication et des Industries Graphiques, c'est en 2015 que j'ai décidé de me réorienter dans le domaine du Web. <br>
                 Ne connaissant pas ce domaine, j'ai eu l'opportunité de participer à une initiation aux métiers du numériques au sein du programme Btech à la Cyber-Base d'Euratechnologies à Lille.<br>
                 A la suite de cette initiation, j'ai décidé de poursuivre ma formation en rejoignant la première session de Webforce3 à Lille. <br><br>
-                J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.
+                J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.<br><br>
+                Vous pouvez accéder aux certificats obtenus lors de la formation Webforce3 en cliquant ci-dessous.
               </p>
             </div>
           </div>
 
-          <div class="row hidden-sm hidden-xs">
-            <div class="col-md-8 col-md-offset-2 center-button">
-              <a href="#experiences" class="btn btn-default div-button experiences move col-md-2">
-                <i class="fa fa-exchange fa-4x"></i>Expériences
+          <div class="row row-button hidden-sm hidden-xs">
+            <div class="button-int">
+              <a href="public/download/integrateur.pdf" class="btn btn-default div-button experiences move">
+                <i class="fa fa-pencil-square-o fa-4x" aria-hidden="true"></i>Intégrateur Web
               </a>
-              <a href="#competences" class="btn btn-default div-button competences move col-md-2">
-                <i class="fa fa-pied-piper fa-4x"></i>Compétences
-              </a>
-              <a href="#creation" class="btn btn-default div-button creation move col-md-2">
-                <i class="fa fa-paint-brush fa-4x"></i>Création
-              </a>
-              <a href="#form-contact" class="btn btn-default div-button contact move col-md-2">
-                <i class="fa fa fa-envelope fa-4x"></i>Contact
+            </div>
+            <div class="button-dev">
+              <a href="public/download/developpeur.pdf" class="btn btn-default div-button competences move">
+                <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>Développeur Web
               </a>
             </div>
           </div>
