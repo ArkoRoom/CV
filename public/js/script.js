@@ -20,7 +20,7 @@ $(function () {
     }
   });
 
-  //Effet nav fixe
+  //Effet StickyNav
   var screen = $(window),
       nav = $('.navbar, .navbar-default'),
       offset = nav.offset().top;
@@ -38,7 +38,7 @@ $(function () {
   /*********** CODE RESTART ***********/
 
   $("#restart").click(function () {
-    location.reload();
+    location.reload("#collapseTwo");
   });
 
   /*********** CODE MINI JEUX ***********/

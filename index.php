@@ -217,6 +217,7 @@
       <section id="creation" class="col-md-12">
         <div class="col-md-8 col-md-offset-2 move">
           <div class="row">
+            <h2>Mes Créations</h2>
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingOne">
@@ -228,7 +229,6 @@
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                   <div class="panel-body">
-                    <h2>Mes Créations</h2>
                     <p>
                       Vous pouvez trouver ici quelques liens vers les sites que j'ai pu réaliser lors de mes formations. <br>
                       Vous avez aussi un lien vers mon profil LinkedIn ainsi que vers mon GitHub.
