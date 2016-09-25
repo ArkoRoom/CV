@@ -13,7 +13,6 @@ body{
 .header{
   background-image: url(../img/pattern1.png);
   min-height: 250px;
-  padding-top: 1.5%;
   text-align: center;
 }
 .text-top-header{
@@ -45,6 +44,7 @@ body{
   border-color: none;
 }
 .navbar{
+  margin-bottom: 0;
   border-radius: 0;
 }
 .navbar-default .navbar-nav > .active > a{
@@ -74,7 +74,11 @@ body{
 /****** Main ******/
 
 #home, #experiences, #competences, #creation, #contact{
+  padding: 0;
   padding-top: 3%;
+}
+hr{
+  margin-bottom: 0;
 }
 #hr1, #hr2, #hr3, #hr4{
   margin-left: 20%;
@@ -135,9 +139,10 @@ section{
 }
 #home{
   min-height: 450px;
+  background-color: #FFFFFF;
 }
 #experiences{
-  padding-top: 5%;
+  background-color: #333333;
 }
 .row{
   margin: 0;
@@ -253,6 +258,9 @@ footer{
 
 /***** Experiences *****/
 
+#experiences p, #experiences h2{
+  color: #FFFFFF;
+}
 .title-experiences{
   color: #CF3A15;
   font-weight: bold;
@@ -260,9 +268,15 @@ footer{
 
 /***** Compétences *****/
 
+#competences{
+  background-color: #FFFFFF;
+}
 
 /***** Création *****/
 
+#creation{
+  background-color: #333333;
+}
 .img-create img{
   width: 200px;
   min-height: 200px;
@@ -288,9 +302,15 @@ footer{
   display: block;
   margin: auto;
 }
+#hr4{
+  margin-bottom: 35px;
+}
 
 /***** Contact *****/
 
+#contact{
+  background-color: #FFFFFF;
+}
 #form-contact{
   width: 50%;
   margin-top: 2%;
