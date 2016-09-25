@@ -56,7 +56,7 @@
         <!-- Home -->
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-6 col-md-offset-2">
               <h2>Bonjour et bienvenue sur mon CV ! </h2>
               <p>
                 Je suis Ludovic CATEL, j'ai 27 ans et j'habite dans le Nord (59). <br>
@@ -66,23 +66,28 @@
                 J'ai aujourd'hui pour affinité le développement frontend avec en particulier le langage JavaScript.<br><br>
                 Vous pouvez accéder aux certificats obtenus lors de la formation Webforce3 en cliquant ci-dessous.
               </p>
+              <div class="row row-button hidden-sm hidden-xs">
+                <div class="button-certif">
+                  <li>
+                    <a href="public/download/integrateur.pdf" class="btn btn-default div-button experiences move" target="_blank">
+                      <i class="fa fa-pencil-square-o fa-4x" aria-hidden="true"></i>Intégrateur Web
+                    </a>
+                  </li>
+                  <li>
+                    <a href="public/download/developpeur.pdf" class="btn btn-default div-button competences move" target="_blank">
+                      <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>Développeur Web
+                    </a>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <a class="twitter-timeline" data-lang="fr" data-height="450" data-theme="dark" data-link-color="#E95F28" href="https://twitter.com/Arkolips">
+                Tweets by Arkolips
+              </a>
             </div>
           </div>
 
-          <div class="row row-button hidden-sm hidden-xs">
-            <div class="button-certif">
-              <li>
-                <a href="public/download/integrateur.pdf" class="btn btn-default div-button experiences move" target="_blank">
-                  <i class="fa fa-pencil-square-o fa-4x" aria-hidden="true"></i>Intégrateur Web
-                </a>
-              </li>
-              <li>
-                <a href="public/download/developpeur.pdf" class="btn btn-default div-button competences move" target="_blank">
-                  <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>Développeur Web
-                </a>
-              </li>
-            </div>
-          </div>
           <div class="col-md-8 col-md-offset-2 arrow">
             <a href="#experiences" class="arrow-bottom">
               <div>
@@ -473,6 +478,7 @@
 
     <script src="private/vendor/jquery/dist/jquery.min.js" charset="utf-8"></script>
     <script src="private/vendor/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script src="public/js/script.js" charset="utf-8"></script>
     <script src="public/js/verif.js" charset="utf-8"></script>
   </body>
