@@ -25,7 +25,7 @@
 
       <div class="header col-md-12">
         <div class="col-md-8 col-md-offset-2 col-sm-12">
-          <p class="text-top-header">CATEL LUDOVIC</p>
+          <h1 class="text-top-header">CATEL LUDOVIC</h1>
           <p class="text-bottom-header">DEVELOPPEUR WEB JUNIOR</p>
         </div>
       </div><!-- /Header -->
@@ -70,15 +70,17 @@
           </div>
 
           <div class="row row-button hidden-sm hidden-xs">
-            <div class="button-int">
-              <a href="public/download/integrateur.pdf" class="btn btn-default div-button experiences move">
-                <i class="fa fa-pencil-square-o fa-4x" aria-hidden="true"></i>Intégrateur Web
-              </a>
-            </div>
-            <div class="button-dev">
-              <a href="public/download/developpeur.pdf" class="btn btn-default div-button competences move">
-                <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>Développeur Web
-              </a>
+            <div class="button-certif">
+              <li>
+                <a href="public/download/integrateur.pdf" class="btn btn-default div-button experiences move" target="_blank">
+                  <i class="fa fa-pencil-square-o fa-4x" aria-hidden="true"></i>Intégrateur Web
+                </a>
+              </li>
+              <li>
+                <a href="public/download/developpeur.pdf" class="btn btn-default div-button competences move" target="_blank">
+                  <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>Développeur Web
+                </a>
+              </li>
             </div>
           </div>
           <div class="col-md-8 col-md-offset-2 arrow">
